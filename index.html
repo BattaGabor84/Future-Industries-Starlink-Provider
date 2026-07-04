@@ -1,13 +1,131 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="hu">
 <head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>Hello, World!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starlink Magyarország – Gyors & Megbízható Internet | [Neved] Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .hero { background: linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.85)), url('https://picsum.photos/id/1015/2000/1200') center/cover no-repeat; }
+        .card-hover:hover { transform: translateY(-8px); transition: all 0.3s; }
+    </style>
 </head>
-<body>
-  <h1>
-    Hello, World!
-  </h1>
+<body class="bg-slate-950 text-slate-200">
+
+    <!-- NAV -->
+    <nav class="bg-slate-900 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="text-2xl font-bold text-white">Starlink <span class="text-blue-500">Partner</span></div>
+            <div class="flex gap-8 text-sm font-medium">
+                <a href="#elonyok" class="hover:text-blue-400 transition">Előnyök</a>
+                <a href="#rolam" class="hover:text-blue-400 transition">Rólam</a>
+                <a href="#kapcsolat" class="hover:text-blue-400 transition">Kapcsolat</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero min-h-screen flex items-center">
+        <div class="max-w-6xl mx-auto px-6 text-center pt-20">
+            <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+                Stabil internet<br>ott is, ahol nincs
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-300 mb-10 max-w-2xl mx-auto">
+                Starlink műholdas internet – akár 400+ Mbps. Vidék, vállalkozás, otthon. 
+                <strong>Személyes magyar támogatással.</strong>
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#kapcsolat" class="bg-blue-600 hover:bg-blue-700 px-10 py-5 rounded-2xl text-xl font-semibold transition text-center">
+                    Ingyenes ajánlatot kérek
+                </a>
+                <a href="tel:+36XXXXXXXXX" class="border border-slate-400 hover:bg-white hover:text-slate-900 px-8 py-5 rounded-2xl text-xl font-semibold transition flex items-center justify-center gap-3">
+                    <i class="fas fa-phone"></i> Hívj most
+                </a>
+            </div>
+            <p class="mt-8 text-sm text-slate-400">Hivatalos Starlink partner • Gyors telepítés • 30 napos elégedettségi garancia</p>
+        </div>
+    </header>
+
+    <!-- RÓLAM -->
+    <section id="rolam" class="py-20 bg-slate-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Szia, [A Te Neved] vagyok</h2>
+                    <p class="text-lg text-slate-300 mb-6">
+                        Korábban marketing managerként dolgoztam az ACN-nél és az E.ON-nál. Több ezer ügyfélnek segítettem jobb szolgáltatásokat találni.
+                    </p>
+                    <p class="text-lg text-slate-300">
+                        Most a Starlinket hozom el Magyarországra – különösen azokra a területekre, ahol a hagyományos internet nem elég jó. Személyesen segítek a választásban, telepítésben és utána is.
+                    </p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-3xl">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-20 h-20 bg-blue-600 rounded-2xl flex items-center justify-center text-4xl">🚀</div>
+                        <div>
+                            <p class="font-semibold text-xl">Tapasztalat</p>
+                            <p class="text-slate-400">ACN • E.ON • Hálózatépítés • Ügyfélszerzés</p>
+                        </div>
+                    </div>
+                    <p class="italic text-slate-400">"A legjobb szolgáltatást a legjobb áron, magyarul és emberileg."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ELŐNYÖK -->
+    <section id="elonyok" class="py-20 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Miért a Starlink velem?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-900 p-8 rounded-3xl card-hover">
+                    <i class="fas fa-satellite-dish text-5xl text-blue-500 mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3">Műholdas technológia</h3>
+                    <p class="text-slate-400">Akár 400+ Mbps letöltés. Nem függ kábelektől vagy tornyoktól.</p>
+                </div>
+                <div class="bg-slate-900 p-8 rounded-3xl card-hover">
+                    <i class="fas fa-users text-5xl text-blue-500 mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3">Személyes támogatás</h3>
+                    <p class="text-slate-400">Telepítéstől kezdve az első hónapig melletted vagyok.</p>
+                </div>
+                <div class="bg-slate-900 p-8 rounded-3xl card-hover">
+                    <i class="fas fa-handshake text-5xl text-blue-500 mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3">Helyi szakértelem</h3>
+                    <p class="text-slate-400">Ismerem a magyar vidék igényeit. Gyors válasz, rugalmas megoldások.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KAPCSOLAT -->
+    <section id="kapcsolat" class="py-20 bg-blue-600">
+        <div class="max-w-2xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4 text-white">Kezdjük el most!</h2>
+            <p class="text-blue-100 mb-10">Töltsd ki az űrlapot vagy hívj – 24 órán belül kereslek.</p>
+            
+            <form class="space-y-6 text-left max-w-md mx-auto" onsubmit="alert('Köszönöm! Hamarosan keresünk.'); return false;">
+                <input type="text" placeholder="Teljes neved" class="w-full px-6 py-4 rounded-2xl bg-white/10 border border-white/30 text-white placeholder:text-blue-200 focus:outline-none focus:border-white">
+                <input type="tel" placeholder="Telefonszámod" class="w-full px-6 py-4 rounded-2xl bg-white/10 border border-white/30 text-white placeholder:text-blue-200 focus:outline-none focus:border-white">
+                <input type="email" placeholder="E-mail címed" class="w-full px-6 py-4 rounded-2xl bg-white/10 border border-white/30 text-white placeholder:text-blue-200 focus:outline-none focus:border-white">
+                <textarea placeholder="Hol van az ingatlan? Milyen céllal használnád? (opcionális)" rows="4" class="w-full px-6 py-4 rounded-3xl bg-white/10 border border-white/30 text-white placeholder:text-blue-200 focus:outline-none focus:border-white"></textarea>
+                <button type="submit" class="w-full bg-white text-blue-700 font-semibold py-5 rounded-2xl text-xl hover:bg-slate-100 transition">
+                    Küldés – Ingyenes ajánlat
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 py-12 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 text-center text-slate-400 text-sm">
+            <p>[A Te Neved] – Starlink Hivatalos Partner / Ügynök</p>
+            <p class="mt-2">Korábbi tapasztalat: ACN • E.ON</p>
+            <p class="mt-8">© 2026 Starlink Partner Magyarország • Minden jog fenntartva</p>
+        </div>
+    </footer>
+
 </body>
 </html>
